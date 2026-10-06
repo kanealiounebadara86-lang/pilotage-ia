@@ -1,0 +1,5 @@
+# HTTPS automatique (certificat Let's Encrypt) : indispensable pour le micro et l'installation sur téléphone.
+{$DOMAIN} {
+    encode gzip
+    reverse_proxy app:80
+}
