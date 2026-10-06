@@ -1,0 +1,31 @@
+# ===== Secrets : ne JAMAIS publier =====
+.env
+.env.*
+!.env.example
+
+# ===== Laravel (si-intelligent) =====
+si-intelligent/vendor/
+si-intelligent/node_modules/
+si-intelligent/storage/*.key
+si-intelligent/storage/logs/*
+si-intelligent/storage/framework/cache/*
+si-intelligent/storage/framework/sessions/*
+si-intelligent/storage/framework/views/*
+si-intelligent/bootstrap/cache/*
+si-intelligent/public/hot
+si-intelligent/public/storage
+si-intelligent/.phpunit.result.cache
+
+# ===== Service Python (ai-service) =====
+__pycache__/
+*.pyc
+ai-service/models_store/
+ai-service/.venv/
+.pytest_cache/
+
+# ===== Divers =====
+test.http
+.vscode/
+.idea/
+*.log
+Thumbs.db
